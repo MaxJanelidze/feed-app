@@ -27,4 +27,4 @@ steps:
   inputs:
     azureSubscription: 'AzureTutorial-Connection'
     WebAppName: 'mywebapp19674'
-    Package: $(System.ArtifactsDirectory)/**/*.zip
+    Package: $(Build.ArtifactStagingDirectory)/**/*.zip
